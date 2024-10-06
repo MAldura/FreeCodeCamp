@@ -1,0 +1,119 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset ="utf-8"/>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header id="nav-header">HTML Basics</header>
+      <ul class="navbar-list">
+      <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+      <li><a class="nav-link" href="#html_documents">HTML Documents</a></li>
+      <li><a class="nav-link" href="#the_!DOCTYPE_declaration">The !DOCTYPE Declaration</a></li>
+      <li><a class="nav-link" href="#html_headings">HTML Headings</a></li>
+      <li><a class="nav-link"href="#html_paragraphs">HTML Paragraphs</a></li>
+      <li><a class="nav-link"href="#html_links">HTML Links</a></li>
+      <li><a class="nav-link"href="#html_images">HTML Images</a></li>
+    </ul>
+    </nav>
+    <main id="main-doc">
+      <!-- The .main-section elements should contain at least ten p elements total (not each)
+The .main-section elements should contain at least five code elements total (not each)
+The .main-section elements should contain at least five li items total (not each) -->
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>In this chapter we will show some basic HTML examples.</p>
+        <p>Don't worry if we use tags you have not learned about yet.</p>
+      </section>
+      <section class="main-section" id="html_documents">
+        <header>HTML Documents</header>
+        <ol>
+          <li>All HTML documents must start with a document type declaration: <code>< !DOCTYPE html ></code>.</li>
+          <li>The HTML document itself begins with <code>< html ></code> and ends with <code>< /html ></code>.</li>
+          <li>The visible part of the HTML document is between <code>< body ></code> and <code>< /body ></code>.</li>
+        </ol>
+      </section>
+      <section class="main-section" id="the_!DOCTYPE_declaration">
+        <header>The !DOCTYPE Declaration</header>
+        <p>The <code>< !DOCTYPE></code>declaration represents the document type, and helps browsers to display web pages correctly.</p>
+        <p>It must only appear once, at the top of the page (before any HTML tags).</p>
+        <p>The <code>< !DOCTYPE></code> declaration is not case sensitive.</p>
+        <p>The <code>< !DOCTYPE></code> declaration for HTML5 is: <code>< !DOCTYPE html ></code></p>
+      </section>
+      <section class="main-section" id="html_headings">
+        <header>HTML Headings</header>
+        <ul>
+          <li>HTML headings are defined with the <code>< h1 ></code> to <code>< h6 ></code> tags.</li>
+          <li><code>< h1 ></code> defines the most important heading. <code>< h6 ></code> defines the least important heading </li>
+        </ul>
+      </section>
+      <section class="main-section" id="html_paragraphs">
+        <header>HTML Paragraphs</header>
+        <p>HTML paragraphs are defined with the <code>< p ></code> tag</p>
+      </section>
+      <section class="main-section" id="html_links">
+        <header>HTML Links</header>
+        <p>HTML links are defined with the <code>< a ></code> tag</p>
+      </section>
+      <section class="main-section" id="html_images">
+        <header>HTML Images</header>
+        <p>HTML images are defined with the <code>< img ></code> tag.</p>
+        <p>The source file <code>(src)</code>, alternative text <code>(alt)</code>, <code>width</code>, and height are provided as attributes:</p>
+      </section>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+@media (max-width: 1199px) and (min-width: 769px) {
+
+}
+
+.navbar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  height: 100%;
+  overflow: auto; 
+}
+
+.nav-link {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  background-color: #555;
+  color: white;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+main {
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+header {
+  font-size: 25px;
+}
+
+#nav-header {
+  text-align: center;
+}
+
+** end of undefined **
+

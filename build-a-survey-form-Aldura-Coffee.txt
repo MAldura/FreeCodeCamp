@@ -1,0 +1,136 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Aldura Coffee Order Form</h1>
+    <p id="description">Thank you for choosing Aldura Coffee!</p>
+    <form id="survey-form" method="post">
+      <!-- fieldset for personal information -->
+      <fieldset>
+        <label id="name-label" for="name">Name <input type="text" id="name" name="name" required placeholder="John Doe"></label>
+        <label id="email-label" for="email">Email <input type="email" id="email" name="email" required placeholder="JohnDoe1@email.com"></label>
+        <label id="number-label" for="number">Number <input type="number" id="number" name="number" min="0" max="9999999999" placeholder="3331112222"></label>
+      </fieldset>
+      <!-- fieldset for order information -->
+      <fieldset>
+      <label for="Coffee Mix"> Please select a coffee mix:
+      <select id="dropdown" name="dropdown">
+        <option value="Jubani">Jubani</option>
+        <option value="Harazi">Harazi</option>
+        <option value="Sanaani">Sanaani</option>
+      </select>
+      </label>
+
+      <legend>Degree of roast (required) </legend>
+      <label for="light-roast"><input type="radio" value="light" name="roast" class="inline" checked />Light</label>
+        <label for="medium-roast"><input type="radio" value="medium" name="roast" class="inline" />Medium</label>
+        <label for="dark-roast"><input type="radio" value="dark" name="roast" class="inline" />Dark</label>
+
+        <legend>Additions</legend>
+      <label for="addition-add-resealable-bag"><input type="checkbox" value="add-resealable-bag" class="inline" />Resealable Bag</label>
+        <label for="addition-add-scoop"><input type="checkbox" value="add-scoop" class="inline"/>Scoop</label>
+     
+      </fieldset>
+
+      <fieldset>
+      <label for="special-instructions">Special Instructions
+        <textarea rows="3" cols="30" placeholder="Remove cinnamon..." ></textarea>
+      </label>
+      </fieldset>
+      <input type="submit" value="Submit" id="submit">
+    </form>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #222222;
+  color: #c9c9c9;
+  font-family: Tahoma
+}
+
+h1, p {
+  margin: 1em, auto;
+  text-align: center;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #bfa75d;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input, textarea {
+  background-color: #EFEFEF;
+  border: 1px solid #EFEFEF;
+  color: #ffffff;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #838181;
+  border-color: white;
+  min-width: 300px;
+}
+
+input[type="file"] {
+  padding: 1px 2px;
+}
+
+.inline{
+  display: inline; 
+}
+
+legend {
+  padding-top: 40;
+}
+
+** end of undefined **
+

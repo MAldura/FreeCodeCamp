@@ -1,0 +1,121 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Prophet Muhammad's (Peace be upon him) timelin" />
+    <title>Prophet Muhammad's (Peace be upon him) timelin</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main id="main">
+      <div id="heading">
+        <h1 id="title">Birth and Young Prophet Muhammad ﷺ</h1>
+        <h2 id="subtitle">Messenger of God</h2>
+      </div>
+      <figure id="img-div">
+        <img id="image" src="https://www.yaqeeninstitute.org/wp-content/uploads/img/paper/018/018_rect_default.jpg"/>
+        <figcaption id="img-caption">The name of Prophet Muhammad ﷺ as depicting him is strictly forbidden in Islam. </figcaption >
+      </figure>
+      <section id="tribute-info">
+        <div id="early-years" class="time-block">
+          <h3>Early Years of Prophet Muhammad ﷺ</h3>
+          <div id="birth" class="event">
+            <p class="event-header"> 570 CE | Prophet Muhammad ﷺ was born</p>
+            <p class="event-desc">Prophet Muhammad ﷺ was born in Makkah. His father, Abdullah, passed away before his birth.</p>
+            <p>⇣</p>
+            <p class="event-header"> 575 CE | Became an Orphan</p>
+            <p class="event-desc">Prophet Muhammad’s ﷺ mother, Amina, passed away. He was raised under the care of his grandfather, Abdul Muttalib, and his uncle, Abu Talib.</p>
+            <p>⇣</p>
+            <p class="event-header"> 582 CE | Travelled to Syria</p>
+            <p class="event-desc">Travelled to Syria with his uncle, Abu Talib, and met a Monk who found signs that young Prophet Muhammad ﷺ would be a great prophet one day.</p>
+            <p>⇣</p>
+          </div>
+          <div id="marriage" class="time-block">
+          <h3>Marriage</h3>
+          <div id="birth" class="event">
+            <p class="event-header">595 CE | Prophet Muhammad’s ﷺ Marriage</p>
+            <p class="event-desc">Khadijah, Prophet Muhammad’s ﷺ employer, proposed marriage. Prophet Muhammad ﷺ married Khadijah when he was 25 years old and Khadijah was nearly 40 years old.</p>
+            <p>⇣</p>
+            <div id="revelation" class="time-block">
+          <h3>The First Revelation</h3>
+          <div id="birth" class="event">
+            <p class="event-header">610 CE | Received the First Revelation</p>
+            <p class="event-desc">Prophet Muhammad ﷺ received the first revelation of the Quran in Cave of Hira.</p>
+            <p>⇣</p>
+            <div id="journey" class="time-block">
+          <h3>The Prophetic Journey</h3>
+          <div id="birth" class="event">
+            <p class="event-header">610-613 CE | Started to Preach</p>
+            <p class="event-desc">Prophet Muhammad ﷺ started to preach Islam privately for three years, then began to preach publicly in Makkah.</p>
+            <p>⇣</p>
+            <p class="event-header">614 CE | Immigrated to Abyssinia</p>
+            <p class="event-desc">Prophet Muhammad ﷺ commanded Muslims to migrate to Abyssinia to escape persecution from pagans and idolatrous.</p>
+            <p>⇣</p>
+            <p class="event-header">619 CE | Khadijah Passed Away</p>
+            <p class="event-desc">Prophet Muhammad ﷺ  lost Khadijah and his uncle, Abu Talib.</p>
+            <p>⇣</p>
+            <div id="early-years" class="time-block">
+          <h3>The Migration</h3>
+          <div id="birth" class="event">
+            <p class="event-header">622 CE | Immigrated to Medina</p>
+            <p class="event-desc">Prophet Muhammad ﷺ and hundreds of followers left Makkah and travelled to Medina. It’s marked as the beginning of the Islamic calendar (Hijri).</p>
+            <p>⇣</p>
+            <p class="event-header">624-627 CE | Fought Three Major Battles</p>
+            <p class="event-desc">Prophet Muhammad ﷺ fought against the Meccans: Badr, Uhud, and Khandaq.</p>
+            <p>⇣</p>
+            <p class="event-header">630 CE | The Conquest of Makkah</p>
+            <p class="event-desc">Prophet Muhammad ﷺ led Muslims on a march to Makkah and were joined by tribe after tribe along the way. They entered and conquered Makkah without bloodshed and the Meccans were pardoned by him.</p>
+            <p>⇣</p>
+            <p class="event-header">632 CE | Prophet Muhammad ﷺ Passed Away</p>
+            <p class="event-desc">He performed a pilgrimage to Makkah one last time and then returned to Medina. Three months later, he passed away there after a brief illness. He is buried in the Nabawi mosque in Medina.</p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <p>Information gathered from <a id="tribute-link" href="https://connect.muslimpro.com/2021/10/prophet-muhammads-wondrous-life-a-timeline/" target="_blank">muslimpro.com</a> only used as data for this project.</p>
+      </footer>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  background-color: #99a98f;
+  color: #fff8de;
+  font-size: 1.5rem
+}
+
+img {
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+#heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#tribute-info {
+  padding: 20px 100px 20px 100px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+
+** end of undefined **
+
